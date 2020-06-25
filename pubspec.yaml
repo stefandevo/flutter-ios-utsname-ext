@@ -1,0 +1,25 @@
+name: ios_utsname_ext
+description: Extension method for translation ios utsname to full product name.
+version: 1.0.0
+repository: https://github.com/stefandevo/flutter-ios-utsname-ext
+issue_tracker: https://github.com/stefandevo/flutter-ios-utsname-ext/issues
+homepage: https://github.com/stefandevo/flutter-ios-utsname-ext
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0
+
+analyzer:
+  exclude:
+    - gen/main.dart
+    - test/**
+    - example/**
