@@ -1,6 +1,6 @@
-# ios-utsname-ext
+# ios_utsname_ext
 
-[![pub package](https://img.shields.io/pub/v/ios_utsname_ext.svg)](https://pub.dartlang.org/packages/ios_utsname_ext) ![build](https://github.com/stefandevo/flutter-flavor/workflows/build/badge.svg?branch=master)
+[![pub package](https://img.shields.io/pub/v/ios_utsname_ext.svg)](https://pub.dartlang.org/packages/ios_utsname_ext) ![build](https://github.com/stefandevo/flutter-ios-utsname-ext/workflows/build/badge.svg?branch=master)
 <a href="https://www.buymeacoffee.com/stefandevo" target="_blank"><img src="https://i.imgur.com/aV6DDA7.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" > </a>
 
 Extension method for translation ios utsname to full product name (e.g. iPhone 6 Plus for 'iPhone7,1').
@@ -23,7 +23,7 @@ print('Running on ${iosInfo.utsname.machine}');  // e.g. "iPhone7,1"
 As you can see, for Android you get a rather good product name. But for iOS... you get `iPhone7,1'.
 This extension package gives you the real product name by adding `.iOSProductName`:
 
-```
+``` dart
 import 'package:ios_utsname_ext/extension.dart';
 
 ...
