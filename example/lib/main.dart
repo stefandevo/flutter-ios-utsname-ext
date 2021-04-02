@@ -20,10 +20,15 @@ void main() async {
   runApp(SampleApp(machineId, productName));
 }
 
+/// Our sample widget
 class SampleApp extends StatelessWidget {
+  /// the machineId
   final String machineId;
+
+  /// the productName converted
   final String productName;
 
+  /// constructor of the widget
   SampleApp(this.machineId, this.productName);
   @override
   Widget build(BuildContext context) {
@@ -35,7 +40,7 @@ class SampleApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('iOS UtsName Demo'),
+          title: const Text('iOS UtsName Demo'),
         ),
         body: Center(
           child: Column(

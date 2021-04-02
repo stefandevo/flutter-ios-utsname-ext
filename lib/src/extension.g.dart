@@ -52,20 +52,20 @@ String _lookup(String machineId) {
       return 'iPhone 7 Plus (no CDMA)';
     case 'iPhone10,1':
       return 'iPhone 8';
-    case 'iPhone10,2':
-      return 'iPhone 8 Plus';
-    case 'iPhone10,3':
-      return 'iPhone X';
     case 'iPhone10,4':
       return 'iPhone 8 (no CDMA)';
+    case 'iPhone10,2':
+      return 'iPhone 8 Plus';
     case 'iPhone10,5':
       return 'iPhone 8 Plus (no CDMA)';
+    case 'iPhone10,3':
+      return 'iPhone X';
     case 'iPhone10,6':
       return 'iPhone X (no CDMA)';
     case 'iPhone11,2':
       return 'iPhone XS';
     case 'iPhone11,4':
-      return 'iPhone XS Max (special model?)';
+      return 'iPhone XS Max (China)';
     case 'iPhone11,6':
       return 'iPhone XS Max';
     case 'iPhone11,8':
@@ -79,12 +79,12 @@ String _lookup(String machineId) {
     case 'iPhone12,8':
       return 'iPhone SE 2nd Gen';
     case 'iPhone13,1':
-      return 'iPhone 12 Mini';
+      return 'iPhone 12 mini';
     case 'iPhone13,2':
       return 'iPhone 12';
     case 'iPhone13,3':
       return 'iPhone 12 Pro';
-    case 'iPhone13,3':
+    case 'iPhone13,4':
       return 'iPhone 12 Pro Max';
     case 'iPod1,1':
       return 'iPod 1st Gen';
@@ -180,10 +180,6 @@ String _lookup(String machineId) {
       return 'iPad 6th Gen (WiFi)';
     case 'iPad7,6':
       return 'iPad 6th Gen (WiFi+Cellular)';
-    case 'iPad7,11':
-      return 'iPad 7th Gen 10.2-inch (WiFi)';
-    case 'iPad7,12':
-      return 'iPad 7th Gen 10.2-inch (WiFi+Cellular)';
     case 'iPad8,1':
       return 'iPad Pro 3rd Gen (11 inch, WiFi)';
     case 'iPad8,2':
@@ -200,14 +196,6 @@ String _lookup(String machineId) {
       return 'iPad Pro 3rd Gen (12.9 inch, WiFi+Cellular)';
     case 'iPad8,8':
       return 'iPad Pro 3rd Gen (12.9 inch, WiFi+Cellular, 1TB)';
-    case 'iPad8,9':
-      return 'iPad Pro 2nd Gen (11 inch, WiFi)';
-    case 'iPad8,10':
-      return 'iPad Pro 2nd Gen (11 inch, WiFi+Cellular)';
-    case 'iPad8,11':
-      return 'iPad Pro 4th Gen (12.9 inch, WiFi)';
-    case 'iPad8,12':
-      return 'iPad Pro 4th Gen (12.9 inch WiFi+Cellular)';
     case 'iPad11,1':
       return 'iPad mini 5th Gen (WiFi)';
     case 'iPad11,2':
@@ -216,6 +204,26 @@ String _lookup(String machineId) {
       return 'iPad Air 3rd Gen (WiFi)';
     case 'iPad11,4':
       return 'iPad Air 3rd Gen (WiFi+Cellular)';
+    case 'iPad7,11':
+      return 'iPad 7th Gen (WiFi)';
+    case 'iPad7,12':
+      return 'iPad 7th Gen (WiFi+Cellular)';
+    case 'iPad8,9':
+      return 'iPad Pro 4th Gen (11 inch, WiFi)';
+    case 'iPad8,10':
+      return 'iPad Pro 4th Gen (11 inch, WiFi+Cellular)';
+    case 'iPad8,11':
+      return 'iPad Pro 4th Gen (12.9 inch, WiFi)';
+    case 'iPad8,12':
+      return 'iPad Pro 4th Gen (12.9 inch, WiFi+Cellular)';
+    case 'iPad11,6':
+      return 'iPad 8th Gen (WiFi)';
+    case 'iPad11,7':
+      return 'iPad 8th Gen (WiFi+Cellular)';
+    case 'iPad13,1':
+      return 'iPad Air 4th Gen (WiFi)';
+    case 'iPad13,2':
+      return 'iPad Air 4th Gen (WiFi+Cellular)';
     case 'Watch1,1':
       return 'Apple Watch 1st Gen 38mm case';
     case 'Watch1,2':
@@ -252,6 +260,22 @@ String _lookup(String machineId) {
       return 'Apple Watch Series 5 40mm case (GPS+Cellular)';
     case 'Watch5,4':
       return 'Apple Watch Series 5 44mm case (GPS+Cellular)';
+    case 'Watch6,1':
+      return 'Apple Watch Series 6 40mm case (GPS)';
+    case 'Watch6,2':
+      return 'Apple Watch Series 6 44mm case (GPS)';
+    case 'Watch6,3':
+      return 'Apple Watch Series 6 40mm case (GPS+Cellular)';
+    case 'Watch6,4':
+      return 'Apple Watch Series 6 44mm case (GPS+Cellular)';
+    case 'Watch5,9':
+      return 'Apple Watch SE 40mm case (GPS)';
+    case 'Watch5,10':
+      return 'Apple Watch SE 44mm case (GPS)';
+    case 'Watch5,11':
+      return 'Apple Watch SE 40mm case (GPS+Cellular)';
+    case 'Watch5,12':
+      return 'Apple Watch SE 44mm case (GPS+Cellular)';
     default:
       return machineId;
   }
