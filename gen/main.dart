@@ -4,8 +4,8 @@ import 'package:http/http.dart' as http;
 
 void main() async {
   /// Download the json file
-  var url =
-      'https://raw.githubusercontent.com/fieldnotescommunities/ios-device-identifiers/master/ios-device-identifiers.json';
+  var url = Uri.parse(
+      'https://raw.githubusercontent.com/stefandevo/ios-device-identifiers/master/ios-device-identifiers.json');
   var response = await http.get(url);
   if (response.statusCode == 200) {
     dynamic jsonResponse = convert.jsonDecode(response.body);

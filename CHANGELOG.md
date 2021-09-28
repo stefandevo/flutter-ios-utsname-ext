@@ -1,3 +1,7 @@
+## [2.1.0]
+
+- Updated September 2021 models
+
 ## [2.0.0]
 
 - null safety
