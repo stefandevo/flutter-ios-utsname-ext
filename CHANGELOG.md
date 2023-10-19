@@ -1,3 +1,7 @@
+## [2.3.0]
+
+- Updated September 2023 models
+
 ## [2.2.0]
 
 - Updated September 2022 models
