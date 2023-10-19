@@ -106,6 +106,14 @@ String _lookup(String machineId) {
       return 'iPhone 14 Pro';
     case 'iPhone15,3':
       return 'iPhone 14 Pro Max';
+    case 'iPhone15,4':
+      return 'iPhone 15';
+    case 'iPhone15,5':
+      return 'iPhone 15 Plus';
+    case 'iPhone16,1':
+      return 'iPhone 15 Pro';
+    case 'iPhone16,2':
+      return 'iPhone 15 Pro Max';
     case 'iPod1,1':
       return 'iPod 1st Gen';
     case 'iPod2,1':
@@ -276,21 +284,13 @@ String _lookup(String machineId) {
       return 'iPad mini 6th Gen (WiFi)';
     case 'iPad14,2':
       return 'iPad mini 6th Gen (WiFi+Cellular)';
-    case 'iPad14,3-A':
+    case 'iPad14,3':
       return 'iPad Pro 4th Gen (11 inch)';
-    case 'iPad14,3-B':
+    case 'iPad14,4':
       return 'iPad Pro 4th Gen (11 inch)';
-    case 'iPad14,4-A':
-      return 'iPad Pro 4th Gen (11 inch)';
-    case 'iPad14,4-B':
-      return 'iPad Pro 4th Gen (11 inch)';
-    case 'iPad14,5-A':
+    case 'iPad14,5':
       return 'iPad Pro 6th Gen (12.9 inch)';
-    case 'iPad14,5-B':
-      return 'iPad Pro 6th Gen (12.9 inch)';
-    case 'iPad14,6-A':
-      return 'iPad Pro 6th Gen (12.9 inch)';
-    case 'iPad14,6-B':
+    case 'iPad14,6':
       return 'iPad Pro 6th Gen (12.9 inch)';
     case 'Watch1,1':
       return 'Apple Watch 1st Gen 38mm case';
@@ -370,6 +370,16 @@ String _lookup(String machineId) {
       return 'Apple Watch Series 8 45mm case (GPS+Cellular)';
     case 'Watch6,18':
       return 'Apple Watch Ultra';
+    case 'Watch7,1':
+      return 'Apple Watch Series 9 41mm case (GPS)';
+    case 'Watch7,2':
+      return 'Apple Watch Series 9 45mm case (GPS)';
+    case 'Watch7,3':
+      return 'Apple Watch Series 9 41mm case (GPS+Cellular)';
+    case 'Watch7,4':
+      return 'Apple Watch Series 9 45mm case (GPS+Cellular)';
+    case 'Watch7,5':
+      return 'Apple Watch Ultra 2';
     default:
       return machineId;
   }
